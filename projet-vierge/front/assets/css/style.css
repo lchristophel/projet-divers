@@ -1,0 +1,31 @@
+.container-c {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  margin-top: 2%;
+}
+
+.form-c {
+  width: 130%;
+}
+
+#txtarea {
+  margin-top: 5%;
+}
+
+body {
+  background-color: #2a2a2a;
+}
+
+.nav-c {
+  height: 70px;
+  text-align: center;
+}
+
+#copy, #reset {
+  margin-top: 2%;
+}
+
+#reset {
+  margin-left: 44%;
+}

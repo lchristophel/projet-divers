@@ -1,0 +1,121 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+$arriere-plan: rgba(119, 152, 171, 0.8);
+$hover: rgba(71, 103, 122, 0.8);
+$active: rgba(66, 145, 190, 0.8);
+$fontC: #291711;
+$fontF: "Lobster", cursive;
+$page: rgba(241, 218, 196, 0.8);
+$other: #2d177d;
+
+body {
+  margin: 0;
+  background-image: url(../../images/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 375px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.back-nav {
+  height: 70px;
+  background-color: $arriere-plan;
+}
+
+.logo {
+  height: 347%;
+  width: 127%;
+  margin-left: 0%;
+  margin-top: -65px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.div-logo {
+  margin-top: 0px;
+  height: 53px;
+  width: 174px;
+  margin-left: -97%;
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+.travel {
+  padding: 22px;
+  margin-top: -21px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.travel:hover {
+  background-color: $hover;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.travel:active {
+  background-color: $active;
+}
+
+.nav-bar ul {
+  display: flex;
+  color: $fontC;
+  font-family: $fontF;
+  font-size: 21px;
+  white-space: nowrap;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  width: 50%;
+  font-size: 50px;
+  color: $fontC;
+  font-family: $fontF;
+  margin-left: 25%;
+  margin-top: 100px;
+  box-shadow: 5px 5px 20px 5px #000000;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+}
+
+.a-propos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: $arriere-plan;
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.a-propos h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: $fontF;
+  color: $fontC;
+  margin-bottom: -3px;
+}
+
+.a-propos p {
+  width: 80%;
+  font-size: 20px;
+  color: $fontC;
+  font-family: cursive;
+}
+
+
